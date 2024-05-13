@@ -10,7 +10,6 @@
   - [Install packages](#install-packages)
   - [Run app](#run-app)
   - [Build](#build)
-- [Demo](#demo)
 
 # About The App
 
@@ -96,7 +95,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```bash
 npm run build
 ```
-
-# Demo
-
-[See DEMO](https://kingamiroslaw.github.io/jobster/)
