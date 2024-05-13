@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Jobster
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of contents
 
-## Available Scripts
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+  - [Clone repo](#clone-repo)
+  - [Install packages](#install-packages)
+  - [Run app](#run-app)
+  - [Build](#build)
+- [Demo](#demo)
 
-In the project directory, you can run:
+# About The App
 
-### `npm start`
+The Jobster project is used to store and manage data on selected job offers for which the user has applied. All job offers contain information on the name of the position, company, place of work, current status, type of contract and date of application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The main goals of the project was to broaden knowledge, especially in the field of [Redux Toolkit](https://redux-toolkit.js.org/) and working with API using [Axios](https://axios-http.com/docs/intro). In addition, the basic tools of [React](https://reactjs.org/) itself were practiced, creating styles using [Styled-Components](https://styled-components.com/), as well as creating notifications using [React-toastify](https://www.npmjs.com/package/react-toastify) and charts thanks to [Recharts](https://recharts.org/en-US/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features:
 
-### `npm test`
+- Register User
+- Login User
+- Logout User
+- Create User profile
+- Add job
+- Edit job
+- Delete job
+- Display User's jobs
+- Display jobs charts
+- Search specific job using search form
+- Use demo application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Screenshots
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/106964401/226572529-be08396a-b8c2-43d7-95a7-0daa96461dbd.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/106964401/226572921-58af9d68-5bef-4877-9aec-ae2dd60c0bba.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/106964401/226573280-f21b7bde-4aaa-4bbc-a129-50be29c5b224.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/106964401/226573524-1f39a42e-558b-49df-bf14-2422634419dc.png)
 
-### `npm run eject`
+# Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies used to build this application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JvaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Libraries used to build this application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react-dom)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/@reduxjs/toolkit)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react-redux)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/axios)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react-router-dom)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react-toastify)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/moment)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/react-icons)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/recharts)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/styled-components)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/KingaMiroslaw/jobster/normalize.css)
 
-## Learn More
+# Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Below you find all scripts to clone, run and build this application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Clone repo
 
-### Code Splitting
+```bash
+git clone https://github.com/KingaMiroslaw/jobster.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Install packages
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Run app
 
-### Making a Progressive Web App
+First, run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run start
+```
 
-### Advanced Configuration
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Build
 
-### Deployment
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Demo
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[See DEMO](https://kingamiroslaw.github.io/jobster/)
