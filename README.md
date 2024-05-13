@@ -72,7 +72,7 @@ Below you find all scripts to clone, run and build this application.
 ## Clone repo
 
 ```bash
-git clone https://github.com/KingaMiroslaw/jobster.git
+git clone https://github.com/vijaydev133/Jobify
 ```
 
 ## Install packages
